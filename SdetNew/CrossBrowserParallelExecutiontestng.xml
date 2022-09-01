@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="5" parallel="tests" name="Suite">
+  <test  name="Test1">
+     <parameter name="BROWSER" value="firefox"></parameter>    
+     <classes>
+      <class name="com.crm.sdet.organization.CreateOrganizationTest"/>
+      </classes>
+      </test>
+  <test  name="Test2">  
+     <parameter name="BROWSER" value="firefox"></parameter>    
+     <classes>  
+      <class name="com.crm.sdet.products.CreateProductTest"/>
+      </classes>
+      </test>
+  <test name="Test3">    
+   <parameter name="BROWSER" value="firefox"></parameter>    
+     <classes>    
+      <class name="com.crm.sdet.products.DeleteProductTest"/>
+      </classes>
+      </test>
+  <test name="Test4">  
+     <parameter name="BROWSER" value="firefox"></parameter>    
+     <classes>  
+      <class name="com.crm.sdet.campaigns.CreateCampaignTest"/>
+      </classes>
+      </test>
+  <test name="Test5">  
+     <parameter name="BROWSER" value="chrome"></parameter>    
+     <classes>      
+      <class name="com.crm.sdet.campaigns.CampaignwithProductnameTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

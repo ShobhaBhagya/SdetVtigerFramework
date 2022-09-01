@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="9" total="11" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57800" started-at="2022-08-22T16:23:46 IST" finished-at="2022-08-22T16:24:44 IST">
+    <groups>
+      <group name="smokeTest">
+        <method signature="CreateCampaignTest.CreateCampaigns()[pri:0, instance:com.crm.sdet.campaigns.CreateCampaignTest@76a3e297]" name="CreateCampaigns" class="com.crm.sdet.campaigns.CreateCampaignTest"/>
+        <method signature="DeleteProductTest.DeleteProduct()[pri:0, instance:com.crm.sdet.products.DeleteProductTest@3aeaafa6]" name="DeleteProduct" class="com.crm.sdet.products.DeleteProductTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Test" duration-ms="57800" started-at="2022-08-22T16:23:46 IST" finished-at="2022-08-22T16:24:44 IST">
+      <class name="com.crm.sdet.organization.CreateOrganizationTest">
+        <test-method status="PASS" signature="BS()[pri:0, instance:com.crm.sdet.organization.CreateOrganizationTest@7a3d45bd]" name="BS" is-config="true" duration-ms="11" started-at="2022-08-22T16:23:46 IST" finished-at="2022-08-22T16:23:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BS -->
+        <test-method status="PASS" signature="BT()[pri:0, instance:com.crm.sdet.organization.CreateOrganizationTest@7a3d45bd]" name="BT" is-config="true" duration-ms="1" started-at="2022-08-22T16:23:46 IST" finished-at="2022-08-22T16:23:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BT -->
+        <test-method status="PASS" signature="AT()[pri:0, instance:com.crm.sdet.organization.CreateOrganizationTest@7a3d45bd]" name="AT" is-config="true" duration-ms="0" started-at="2022-08-22T16:24:44 IST" finished-at="2022-08-22T16:24:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AT -->
+        <test-method status="PASS" signature="AS()[pri:0, instance:com.crm.sdet.organization.CreateOrganizationTest@7a3d45bd]" name="AS" is-config="true" duration-ms="0" started-at="2022-08-22T16:24:44 IST" finished-at="2022-08-22T16:24:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AS -->
+      </class> <!-- com.crm.sdet.organization.CreateOrganizationTest -->
+      <class name="com.crm.sdet.products.DeleteProductTest">
+        <test-method status="PASS" signature="BC()[pri:0, instance:com.crm.sdet.products.DeleteProductTest@3aeaafa6]" name="BC" is-config="true" duration-ms="3256" started-at="2022-08-22T16:23:46 IST" finished-at="2022-08-22T16:23:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC -->
+        <test-method status="PASS" signature="BM()[pri:0, instance:com.crm.sdet.products.DeleteProductTest@3aeaafa6]" name="BM" is-config="true" duration-ms="6021" started-at="2022-08-22T16:23:49 IST" finished-at="2022-08-22T16:23:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method status="PASS" signature="DeleteProduct()[pri:0, instance:com.crm.sdet.products.DeleteProductTest@3aeaafa6]" name="DeleteProduct" duration-ms="23986" started-at="2022-08-22T16:23:56 IST" finished-at="2022-08-22T16:24:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteProduct -->
+        <test-method status="PASS" signature="AM()[pri:0, instance:com.crm.sdet.products.DeleteProductTest@3aeaafa6]" name="AM" is-config="true" duration-ms="1" started-at="2022-08-22T16:24:20 IST" finished-at="2022-08-22T16:24:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method status="PASS" signature="AC()[pri:0, instance:com.crm.sdet.products.DeleteProductTest@3aeaafa6]" name="AC" is-config="true" duration-ms="0" started-at="2022-08-22T16:24:20 IST" finished-at="2022-08-22T16:24:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+      </class> <!-- com.crm.sdet.products.DeleteProductTest -->
+      <class name="com.crm.sdet.campaigns.CreateCampaignTest">
+        <test-method status="PASS" signature="BC()[pri:0, instance:com.crm.sdet.campaigns.CreateCampaignTest@76a3e297]" name="BC" is-config="true" duration-ms="1350" started-at="2022-08-22T16:24:20 IST" finished-at="2022-08-22T16:24:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC -->
+        <test-method status="PASS" signature="BM()[pri:0, instance:com.crm.sdet.campaigns.CreateCampaignTest@76a3e297]" name="BM" is-config="true" duration-ms="5785" started-at="2022-08-22T16:24:21 IST" finished-at="2022-08-22T16:24:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method status="PASS" signature="CreateCampaigns()[pri:0, instance:com.crm.sdet.campaigns.CreateCampaignTest@76a3e297]" name="CreateCampaigns" duration-ms="17332" started-at="2022-08-22T16:24:27 IST" finished-at="2022-08-22T16:24:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCampaigns -->
+        <test-method status="PASS" signature="AM()[pri:0, instance:com.crm.sdet.campaigns.CreateCampaignTest@76a3e297]" name="AM" is-config="true" duration-ms="1" started-at="2022-08-22T16:24:44 IST" finished-at="2022-08-22T16:24:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method status="PASS" signature="AC()[pri:0, instance:com.crm.sdet.campaigns.CreateCampaignTest@76a3e297]" name="AC" is-config="true" duration-ms="0" started-at="2022-08-22T16:24:44 IST" finished-at="2022-08-22T16:24:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+      </class> <!-- com.crm.sdet.campaigns.CreateCampaignTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

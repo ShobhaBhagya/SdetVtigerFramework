@@ -1,0 +1,5 @@
+com\crm\sdet\organization\CreateOrganizationTest.class
+com\crm\sdet\campaigns\CampaignwithProductnameTest.class
+com\crm\sdet\products\CreateProductTest.class
+com\crm\sdet\campaigns\CreateCampaignTest.class
+com\crm\sdet\products\DeleteProductTest.class
